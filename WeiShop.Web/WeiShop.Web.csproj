@@ -288,6 +288,9 @@
     <Compile Include="App_Start\AutofacConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ShopCarController.cs" />
+    <Compile Include="Controllers\SortController.cs" />
+    <Compile Include="Controllers\UserCenterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -322,6 +325,13 @@
     <Content Include="Views\_LayoutNav.cshtml" />
     <Content Include="Views\Home\Ggxiang.cshtml" />
     <Content Include="Views\Home\Gonggao.cshtml" />
+    <Content Include="Views\Sort\Index.cshtml" />
+    <Content Include="Views\Sort\ProductList.cshtml" />
+    <Content Include="Views\ShopCar\Index.cshtml" />
+    <Content Include="Views\UserCenter\Index.cshtml" />
+    <Content Include="Views\UserCenter\MyOrder.cshtml" />
+    <Content Include="Views\UserCenter\NoPay.cshtml" />
+    <Content Include="Views\Sort\ProductDetail.cshtml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

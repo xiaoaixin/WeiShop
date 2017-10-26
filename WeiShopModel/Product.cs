@@ -29,7 +29,7 @@ namespace WeiShopModel
         [StringLength(200)]
         public string Name { get; set; }
 
-        public int Type { get; set; }
+        public int? Type { get; set; }
 
         [Column(TypeName = "text")]
         [Required]

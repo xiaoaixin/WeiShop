@@ -47,7 +47,9 @@
         @foreach (var product in Model.Products)
         {
             <li>
-                <a href="#@product.Code"><img src="@product.ProPhotoes.FirstOrDefault(p=>p.No==0).ImgUrl"></a>
+                <a href="@Url.Action("ProductDetail", "Sort", new {proCode=product.Code})">
+                    <img src="@product.ProPhotoes.FirstOrDefault(p => p.No == 0).ImgUrl">
+                </a>
                 <div class="product_text">
                     <h2>
                         <p>@product.Name</p>

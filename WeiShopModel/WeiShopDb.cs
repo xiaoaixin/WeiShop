@@ -134,11 +134,11 @@ namespace WeiShopModel
 
             modelBuilder.Entity<Product>()
                 .Property(e => e.SellPrice)
-                .HasPrecision(10, 0);
+                .HasPrecision(10, 2);
 
             modelBuilder.Entity<Product>()
                 .Property(e => e.CostPrice)
-                .HasPrecision(10, 0);
+                .HasPrecision(10, 2);
 
             modelBuilder.Entity<Product>()
                 .Property(e => e.Detail)

@@ -23,9 +23,14 @@ namespace WeiShopModel
         [StringLength(100)]
         public string Name { get; set; }
 
-        [Required]
         [StringLength(50)]
         public string UpCode { get; set; }
+
+        [StringLength(50)]
+        public string Img { get; set; }
+
+        [StringLength(50)]
+        public string Title { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Product> Products { get; set; }

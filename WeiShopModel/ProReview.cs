@@ -24,7 +24,6 @@ namespace WeiShopModel
         public int CusId { get; set; }
 
         [Column(TypeName = "text")]
-        [Required]
         public string Body { get; set; }
 
         public int State { get; set; }

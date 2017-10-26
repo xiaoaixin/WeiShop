@@ -12,5 +12,12 @@ namespace WeiShop.Web.Models
         public IEnumerable<Banner> Banners { get; set; }
         public IEnumerable<Notice> Notices { get; set; }
         public IEnumerable<Product> Products { get; set; }
+
+        public Product Product { get; set; }
+      
+        public IEnumerable<Sort> Sorts { get; set; }
+
+        public IEnumerable<ShoppingCart> ShopCars { get; set; }
+        public ShoppingCart Shopcar { get; set; }
     }
 }
